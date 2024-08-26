@@ -5,3 +5,5 @@ bioc_pkgs<-c(
 requireNamespace("BiocManager")
 BiocManager::install(bioc_pkgs,ask=FALSE)
 BiocManager::install("scater", ask=FALSE)
+
+devtools::install_github("neurogenomics/scFlow")
