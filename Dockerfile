@@ -23,6 +23,7 @@ argparse \
 cli \
 matrixStats \
 qs \
+devtools \
 && rm -rf /tmp/downloaded_packages
 
 ## install R packages from bioconductor
