@@ -1,4 +1,4 @@
-FROM rocker/tidyverse:4.2.3
+FROM nfancy/scflow:0.7.4
 
 ## install linux libraries
 RUN apt-get update \
